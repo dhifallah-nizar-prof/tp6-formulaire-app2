@@ -60,7 +60,8 @@ void dispose() {
                   keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                     hintText: "Donner un nombre",
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
 
               )),
               const SizedBox(height: 20),
@@ -69,7 +70,9 @@ void dispose() {
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
                     hintText: "Donner un autre nombre",
-                    border: OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                    ),
 
                   )),
               const SizedBox(height: 20),
